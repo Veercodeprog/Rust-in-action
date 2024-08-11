@@ -16,4 +16,8 @@ fn main() {
     let status_b = check_status(sat_b);
     let status_c = check_status(sat_c);
     println!("a: {:?}, b: {:?}, c: {:?}", status_a, status_b, status_c);
+    let status_a = check_status(sat_a);
+    let status_b = check_status(sat_b);
+    let status_c = check_status(sat_c);
+    println!("a: {:?}, b: {:?}, c: {:?}", status_a, status_b, status_c);
 }
